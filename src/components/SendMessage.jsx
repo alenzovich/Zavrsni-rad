@@ -14,7 +14,7 @@ const SendMessage = ({scroll}) => {
   const sendMessage = async (e) => {
     e.preventDefault()
     if (input === '') {
-        alert('Please enter a valid message')
+        alert('Molimo da unesete valjanu poruku')
         return
     }
     const {uid, displayName} = auth.currentUser
